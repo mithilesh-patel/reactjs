@@ -46,3 +46,8 @@ Ans: CDN stands for Content Delivery Network.
 The CDN is a set of servers that are geographically located nearer to the user that help in reducing page loading time, user experience and reduces bandwidth consumption. For eg- Fastly
 
 The content are cached in the CDN servers which result in faster page reloads, improving performance and reducing web traffic to the web server resulting in saving cost to the owner of the website especially when it is billed on the traffic on the website.
+
+
+##### Q4. What is the difference between React and ReactDOM?
+Ans: React is the core React files which is used for creating reusable UI components in an efficient manner , and ReactDOM is the react which is required to render into the browser. 
+If we are creating a Web Application then we will typically use both , the React and ReactDOM to create and render it into the UI.

@@ -51,3 +51,13 @@ The content are cached in the CDN servers which result in faster page reloads, i
 ##### Q4. What is the difference between React and ReactDOM?
 Ans: React is the core React files which is used for creating reusable UI components in an efficient manner , and ReactDOM is the react which is required to render into the browser. 
 If we are creating a Web Application then we will typically use both , the React and ReactDOM to create and render it into the UI.
+
+
+##### Q4. What is the difference between react.development.js and react.production.js via the CDN?
+Ans: React and ReactDOM are two separate packages in the React ecosystem that serve different purposes:
+
+1. **React**: React is a JavaScript library for building user interfaces. It provides a component-based architecture where you can create reusable UI components and manage their state independently. React allows you to efficiently update and render components in response to data changes.
+
+2. **ReactDOM**: ReactDOM is a package that provides DOM-specific methods that are used to interact with the DOM (Document Object Model). It contains methods for mounting React components into the DOM, updating them, and unmounting them when they are no longer needed. ReactDOM is specific to web development and is used to render React components into the browser DOM.
+
+In summary, React is the core library for building UI components in a declarative and efficient manner, while ReactDOM is responsible for rendering those components into the DOM. If you're building web applications with React, you will typically use both React and ReactDOM together to create and render your UI.

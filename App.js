@@ -1,34 +1,31 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const Heading = React.createElement(
-  "h1",
-  { id: "using Core React" },
-  "This is using core React "
-);
+const Header = ()=>{
+  return <div className="header">
+    <div className="logo-container">
 
-const JsxHeading = () => (
-    <h1>This is using JSX 🚀</h1>
-);
+    <img src="https://i.pinimg.com/1200x/eb/4f/74/eb4f749fd1c95eefe5cccbcd325d8299.jpg" className="logo" alt=""/>
+    </div>
+    <div className="nav-items">
+      <ul>
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Contact Us</li>
+        <li>Cart</li>
+      </ul>
+    </div>
 
-const Body = ()=> (
-    <h1>This is Body 💪😎 Component</h1>
-)
+  </div>
+}
 
-const naam= "Mithilesh";
+const AppLayout = () => (
+  <div className="app">
+    <Header />
 
-const Headingcomponent = () => (
-  <div id="container">
-    <JsxHeading />
-    {Heading}
-    {100+300}
-    {console.log("This is inside console")}
-    <Body />
-    <h1>🌸 This is the Heading1 Component 🌸</h1>
-    <h2>🌸 This is the Heading2 Component 🌸</h2>
   </div>
 );
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<Headingcomponent />);
+root.render(<AppLayout />);

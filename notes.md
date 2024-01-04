@@ -60,7 +60,7 @@ Superscript	X^2^
 
 ---
 
-##Date 07-Dec-2023
+## Date 07-Dec-2023
 
 - Production build is fast, otimized and performant.
 
@@ -69,3 +69,10 @@ Superscript	X^2^
 - Browserlist - used for making our app compatible in different types of browsers
 
 NOTE: React do not minify the code rather its Bundlers and that too with the help of lot of other packages and dependencies.
+
+
+## Date 04 Jan
+
+-Setting up the project structure
+-utils folder
+-

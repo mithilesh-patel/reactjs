@@ -51,3 +51,12 @@
 .res-logo{
     width: 100%;
 }
+
+/* FILTER BUTTON */
+
+.filter-btn{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(177, 177, 177);
+}

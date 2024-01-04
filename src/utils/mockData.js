@@ -679,4 +679,4 @@ const RES_LIST = [
   ];
 
 
-  export {RES_LIST};
+  export default RES_LIST;
